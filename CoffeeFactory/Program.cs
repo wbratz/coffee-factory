@@ -28,7 +28,7 @@ switch (userInput)
 }
 
 
-var coffee = Initilizer.Brew(coffeeSelection, pumpkinSpice);
+var customerCoffee = Initilizer.Brew(coffeeSelection, pumpkinSpice);
 var pumpkinSpricestring = pumpkinSpice ? string.Empty : "out";
 Console.WriteLine($"Your {coffee.GetType().Name} with{pumpkinSpricestring} pumpkin spice is ready!");
 
